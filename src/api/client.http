@@ -1,0 +1,21 @@
+### Register Request
+
+POST https://3001-crimson-leopon-bm4k40yu.ws-us23.gitpod.io/api/register
+Content-Type: application/json
+
+{
+    "email": "jdoe123@gmail.com",
+    "password": "Birthday1994$"
+}
+
+###
+POST https://3001-crimson-leopon-bm4k40yu.ws-us23.gitpod.io/api/login
+Content-Type: application/json
+
+{
+    "email": "jdoe123@gmail.com",
+    "password": "Birthday1994$"
+}
+###
+GET https://3001-crimson-leopon-bm4k40yu.ws-us23.gitpod.io/api/userinfo
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYzOTg0ODEyMywianRpIjoiN2M3ODY3MzYtNjQ1Yy00MmFiLTk5NTUtMjY4YzZhZTU0YmVmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6NSwibmJmIjoxNjM5ODQ4MTIzLCJleHAiOjE2Mzk4NDkwMjN9.74Cr1V3SLg7e_NG40N86CSrVairRFy4saQll02JqYMY
